@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.navbar{
+    padding:20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.logo{
+    width:150px;
+}
+.navbar-menu{
+    display:flex;
+    list-style:none;
+    color:#495576;
+    gap:20px;
+    font-size: 18px;
+    font-family: Outfit;
+    cursor:pointer;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 15px;
+    color:#495576;
+    border:1px solid tomato;
+    padding:10px 30px;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+.navbar.active{
+    padding-bottom:2px;
+    border-bottom: 2px solid #495576;
+}
+.navbar-search-icon{
+    position:relative;
+}
+.dot{
+    position:absolute;
+    min-width: 10px;
+    min-height:10px;
+   
+    background-color: tomato;
+    border-radius: 5px;
+    top:-8px;
+    right:-8px;
+}
